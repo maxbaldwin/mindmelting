@@ -1,0 +1,14 @@
+{
+  "herbivores": [
+    {
+      "name": First one,
+      "family": First one, 
+    }, {
+      "name": Second one, 
+      "family": Second one, 
+    }, {
+      "name": Third one, 
+      "family": Third one, 
+    }
+  ]
+}
