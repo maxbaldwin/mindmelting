@@ -8,7 +8,7 @@ let herbivores = [];
       let loader = new XMLHttpRequest();
       loader.addEventListener("load", function () {
         carnivores = JSON.parse(this.responseText).carnivores;
-        callbackFunction(carnivores);        
+        // callbackFunction(carnivores);
       });
       loader.open("GET","carnivores.json");
       loader.send();
